@@ -176,6 +176,7 @@
 <div class="post_content">
   <p>Ok, you have booted an Engine Yard AppCloud instance. You are one step away from
     hosting your own Hudson CI.</p>
+  <p>On your local machine:</p>
 <div caption="Set up Hudson CI server" class="code_block"><h5>Set up Hudson CI server</h5><div class="CodeRay">
   <div class="code">
     <pre>gem install <span class="co">engineyard-hudson</span>
@@ -185,7 +186,6 @@
 </div><h2>Options</h2>
 <p>The <code>install_server</code> task assumes that this environment is called <code>hudson</code>, <code>hudson_server</code>, <code>hudson_production</code>, <code>hudson_server_production</code> and that there is only one such environment.</p>
 <p>If it cannot find an environment with these names, or there are multiple environments with these names (you might be using the new <a href="http://docs.engineyard.com/beta/collaboration">collaborator</a> beta feature), then you will asked to provide more options.</p>
-<p>On your local machine:</p>
 <div caption="Environment flags" class="code_block"><h5>Environment flags</h5><div class="CodeRay">
   <div class="code">
     <pre><span class="co">ey-hudson</span> install_server <span class="co">--environment</span> hudson_env <span class="co">--account</span> my_hudson_account</pre>
