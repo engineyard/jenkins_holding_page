@@ -1,6 +1,6 @@
-# Hudson CI on Engine Yard AppCloud
+# Jenkins CI on Engine Yard AppCloud
 
-NOTE: This is _not_ Hudson CI. This is the temporary "Almost there..." site installed prior to installing Hudson CI.
+NOTE: This is _not_ Jenkins CI. This is the temporary "Almost there..." site installed prior to installing Jenkins CI.
 
 ## License
 

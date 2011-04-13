@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-HudsonServer::Application.load_tasks
+JenkinsServer::Application.load_tasks
